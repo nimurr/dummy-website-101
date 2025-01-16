@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* header nav css  */
+
+
+.navbarContainer {
+    width: 80%;
+    margin: auto;
+
+}
+
+.navbarContainer .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navBarButtonLogin {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.navLogo img {
+    width: 100px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navBarButtonGetStart {
+    background: linear-gradient(90deg, #B83684 0%, #1E0A47 100%);
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+.containerHero {
+    width: 100%;
+    min-height: 120vh;
+    /* background-color: #000; */
+    background-image: url('./images/headerBg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* hero section css  */
+
+.heroTitle {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 100px auto;
+}
+
+.heroTitleHighlight {
+    font-weight: bold;
+    /* Optional */
+    background: linear-gradient(90deg, #139EBC, #AA1ECD);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heroButtonStartFreeTrialContainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.heroButtonStartFreeTrial {
+    background: linear-gradient(90deg, #B83684 0%, #1E0A47 100%);
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.heroButtonStartFreeTrialSub {
+    color: gray;
+}
+
+
+.heroSecondTitle {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 80px auto;
+}
+
+.heroSecondTitleHighlight {
+    font-weight: bold;
+    /* Optional */
+    background: linear-gradient(90deg, #ab08d4, #139EBC, #AA1ECD);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* customer Support Contianer all Users  */
+
+.customerSupportContianer {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.customerSupportUsers {
+
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.customerSupportUsers img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.customerSupportAudioPlay {
+    background: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 25%;
+    width: 50%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    /* Add a subtle shadow for depth */
+}
+
+.customerSupportAudioPlay img {
+    width: 50px;
+}
+
+.heroThardSubTitleContainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 50px auto; 
+    padding-bottom: 20px ;
+}
+
+.heroThardSubTitle {
+    color: #fff;
+    line-height: 1.5;
+}
+
+/*============ start Business section  ========== */
+
+.businessContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.businessTitgle {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    margin: 100px auto;
+}
+
+.businessTitgle p {
+    color: #1E0A47;
+}
+
+.businessTitgle h2 {
+    color: #1E0A47;
+    margin: 20px auto;
+    font-size: 45px;
+}
+
+.businessTitgleHighlight {
+    font-weight: bold;
+    /* Optional */
+    background: linear-gradient(90deg, #B83684 0%, #1E0A47 100%);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.businessIdea {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px auto;
+}
+
+.businessIdeaCard {
+    width: 100%;
+    /* border-left: 1px solid #1E0A47;
+    border-top: 1px solid #1E0A47;
+    border-right: 1px solid #1E0A47; */
+    border-radius: 15px;
+    box-shadow: inset 0px 10px 15px rgba(95, 95, 95, 0.433);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 20px;
+}
+
+.businessIdeaCardTitle {
+    color: #1E0A47;
+    margin: 20px auto;
+    font-size: 30px;
+}
+
+.custommerSingleSupportUserContainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.custommerSingleSupportUser {
+    margin-bottom: -5px;
+    width: 100%;
+}
+
+/*================ Credit Cards Signup section  ================= */
+
+
+.creditCards {
+    background: url('./images/sectionBg.png') no-repeat center center/cover;
+}
+
+.creditCardsContainer {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.creditCardsContainer h3 {
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.creditCardsContainer p {
+    font-size: 18px;
+    color: gray;
+    line-height: 1.5;
+    margin: 30px auto;
+}
+
+.creditCardsButton {
+    background: linear-gradient(90deg, #B83684 0%, #1E0A47 100%);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+/*=============== priceing section start =============*/
+
+.priceing{
+    width: 80%;
+    margin: auto;
+    margin: 100px auto  
+}
+
+.priceingTitle{
+    text-align: center;
+    font-size: 45px;
+    margin: 50px auto;
+    color: #1E0A47;
+}
+.priceingTitleHighlight{
+    font-weight: bold;
+    /* Optional */
+    background: linear-gradient(90deg, #B83684 0%, #1E0A47 100%);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.pricingToggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.toggleOption {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E0A47; /* Dark purple for text */
+    transition: color 0.3s ease-in-out;
+}
+
+.toggleOption.active {
+    font-weight: 600;
+    color: #1E0A47; /* Active option highlighted */
+}
+
+.toggleSwitch {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background-color: #1E0A47; /* Dark purple for toggle background */
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.toggleSwitch .toggleCircle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f06292; /* Pink toggle circle */
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    left: 5px; /* Start position */
+}
+
+.toggleSwitch.active .toggleCircle {
+    left: 25px; /* Move to the right */
+}
+
+.toggleOption:not(.active) {
+    color: #aaa; /* Lighter color for inactive option */
+}
+
+
+/* all pricing card css start  */
+
+.priceingCardsAll {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+.priceingCard {
+    width: 23%;
+    background: linear-gradient(180deg, #0B0425 0%, #2B0D68 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.priceingCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.priceingCard h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.priceingCard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+
+.priceingCard ul li {
+    margin: 5px 0;
+    color: gray;
+}
+
+.priceingCard ul li span {
+    color: #ccc;
+}
+
+.price {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.price h4 {
+    margin: 0;
+}
+
+.price span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #aaa;
+}
+
+.selectPlan {
+    background: linear-gradient(90deg, #B83684, #512DC7);
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.selectPlan:hover {
+    background: linear-gradient(90deg, #6e6efc, #ff7db8);
+}
+
+.contactUs {
+    background: linear-gradient(90deg, #B83684, #512DC7);
+}
+
+.activeItem{
+    color: #fff !important;
+}
